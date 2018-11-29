@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>8queen 28 loop, 538 count</title>
+        
+<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.11.min.css" type="text/css" />
+        
+<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.11.min.js"></script>
+<script type="text/javascript">
+    Bokeh.set_log_level("info");
+</script>
+        <style>
+          html {
+            width: 100%;
+            height: 100%;
+          }
+          body {
+            width: 90%;
+            height: 100%;
+            margin: auto;
+          }
+        </style>
+    </head>
+    <body>
+        
+        <div class="bk-root">
+            <div class="bk-plotdiv" id="8b0996d9-64b4-4e27-91dd-7bc0317e81dd"></div>
+        </div>
+        
+        <script type="application/json" id="f7bd4350-58b6-4dda-bbf9-f0efe1671109">
+          {"a8886884-e231-4f75-9f61-d1019709d39d":{"roots":{"references":[{"attributes":{"below":[{"id":"0df8ae41-48f0-4d45-aaec-ba3758c2cc9e","type":"LinearAxis"}],"left":[{"id":"d3f6a704-969b-4d87-b69e-221e588d1957","type":"LinearAxis"}],"renderers":[{"id":"0df8ae41-48f0-4d45-aaec-ba3758c2cc9e","type":"LinearAxis"},{"id":"0bc3353d-f93f-4972-b98a-02882a6bbb12","type":"Grid"},{"id":"d3f6a704-969b-4d87-b69e-221e588d1957","type":"LinearAxis"},{"id":"f72957b4-d752-4dc0-a52a-58733a16cb54","type":"Grid"},{"id":"7c8cf221-a98c-4447-8132-15e169bf46f9","type":"BoxAnnotation"},{"id":"f06b7caa-9127-4883-9466-727d377ec36b","type":"BoxAnnotation"},{"id":"9945d567-37ac-4bf3-8041-13914b9cf881","type":"PolyAnnotation"},{"id":"bc840d73-dbeb-45c4-96e4-4c32fa921500","type":"GlyphRenderer"}],"title":{"id":"b92cf795-7ace-4333-a7c9-2e17fdd456f8","type":"Title"},"toolbar":{"id":"eba5a702-7c73-4b5a-b8a8-df170c47df01","type":"Toolbar"},"x_range":{"id":"6475c865-55e2-4c01-9536-96153139599a","type":"DataRange1d"},"x_scale":{"id":"c34b6a69-d44c-458f-a8c7-9632f6829a8d","type":"LinearScale"},"y_range":{"id":"f54e1f5e-608b-4486-a2bb-beb6ea8bd431","type":"DataRange1d"},"y_scale":{"id":"77688abd-2de9-4198-8518-2bbd53ca55da","type":"LinearScale"}},"id":"05e28e25-84f6-488f-821f-d0d98934fed4","subtype":"Figure","type":"Plot"},{"attributes":{"fill_alpha":{"value":0.6},"fill_color":{"value":"#1f77b4"},"line_color":{"value":"#1f77b4"},"radius":{"units":"data","value":0.3},"x":{"field":"x"},"y":{"field":"y"}},"id":"b45c7a5f-94f3-437c-a868-e88c198a041e","type":"Circle"},{"attributes":{"dimension":1,"plot":{"id":"05e28e25-84f6-488f-821f-d0d98934fed4","subtype":"Figure","type":"Plot"},"ticker":{"id":"2b1a3098-3482-4553-a0af-92af6e29fb85","type":"BasicTicker"}},"id":"f72957b4-d752-4dc0-a52a-58733a16cb54","type":"Grid"},{"attributes":{"callback":null},"id":"f54e1f5e-608b-4486-a2bb-beb6ea8bd431","type":"DataRange1d"},{"attributes":{"source":{"id":"acba427f-4d46-4ef3-937c-4d520556f7b6","type":"ColumnDataSource"}},"id":"73900a1f-ff22-47af-b45b-3359b9a07a94","type":"CDSView"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"radius":{"units":"data","value":0.3},"x":{"field":"x"},"y":{"field":"y"}},"id":"cf3f27e8-d1e9-414e-bc87-1cd45d6f6125","type":"Circle"},{"attributes":{},"id":"2875c76c-225a-4d43-94a9-838b934557fb","type":"CrosshairTool"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"plot":null,"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"7c8cf221-a98c-4447-8132-15e169bf46f9","type":"BoxAnnotation"},{"attributes":{"overlay":{"id":"7c8cf221-a98c-4447-8132-15e169bf46f9","type":"BoxAnnotation"}},"id":"fb629f4e-bc58-4201-b4e6-25fab93a08b5","type":"BoxZoomTool"},{"attributes":{},"id":"001cde88-0dfb-4a0f-96f2-17c9f987543b","type":"WheelZoomTool"},{"attributes":{},"id":"c34b6a69-d44c-458f-a8c7-9632f6829a8d","type":"LinearScale"},{"attributes":{"plot":{"id":"05e28e25-84f6-488f-821f-d0d98934fed4","subtype":"Figure","type":"Plot"},"ticker":{"id":"14a95cb7-042a-412f-a87c-d6b90af5b5ab","type":"BasicTicker"}},"id":"0bc3353d-f93f-4972-b98a-02882a6bbb12","type":"Grid"},{"attributes":{},"id":"679cf7c7-1672-43be-902c-994cbe1f2427","type":"ResetTool"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_scroll":"auto","active_tap":"auto","tools":[{"id":"2875c76c-225a-4d43-94a9-838b934557fb","type":"CrosshairTool"},{"id":"e57f3305-6c6f-4f35-8916-2710207e3fe7","type":"PanTool"},{"id":"001cde88-0dfb-4a0f-96f2-17c9f987543b","type":"WheelZoomTool"},{"id":"fb629f4e-bc58-4201-b4e6-25fab93a08b5","type":"BoxZoomTool"},{"id":"679cf7c7-1672-43be-902c-994cbe1f2427","type":"ResetTool"},{"id":"8cfddd0b-9043-4d33-a1e1-43451a9d57c2","type":"BoxSelectTool"},{"id":"53a32fe0-c127-49ea-a8ea-fde4a540e4c4","type":"LassoSelectTool"}]},"id":"eba5a702-7c73-4b5a-b8a8-df170c47df01","type":"Toolbar"},{"attributes":{},"id":"77688abd-2de9-4198-8518-2bbd53ca55da","type":"LinearScale"},{"attributes":{"data_source":{"id":"acba427f-4d46-4ef3-937c-4d520556f7b6","type":"ColumnDataSource"},"glyph":{"id":"b45c7a5f-94f3-437c-a868-e88c198a041e","type":"Circle"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"cf3f27e8-d1e9-414e-bc87-1cd45d6f6125","type":"Circle"},"selection_glyph":null,"view":{"id":"73900a1f-ff22-47af-b45b-3359b9a07a94","type":"CDSView"}},"id":"bc840d73-dbeb-45c4-96e4-4c32fa921500","type":"GlyphRenderer"},{"attributes":{"plot":null,"text":""},"id":"b92cf795-7ace-4333-a7c9-2e17fdd456f8","type":"Title"},{"attributes":{},"id":"2b1a3098-3482-4553-a0af-92af6e29fb85","type":"BasicTicker"},{"attributes":{},"id":"14a95cb7-042a-412f-a87c-d6b90af5b5ab","type":"BasicTicker"},{"attributes":{"formatter":{"id":"8a01e8a2-65a8-4314-bfca-d9a35e084c6c","type":"BasicTickFormatter"},"plot":{"id":"05e28e25-84f6-488f-821f-d0d98934fed4","subtype":"Figure","type":"Plot"},"ticker":{"id":"14a95cb7-042a-412f-a87c-d6b90af5b5ab","type":"BasicTicker"}},"id":"0df8ae41-48f0-4d45-aaec-ba3758c2cc9e","type":"LinearAxis"},{"attributes":{},"id":"e6d45879-852b-4501-b8c6-b936c96bb006","type":"BasicTickFormatter"},{"attributes":{},"id":"e57f3305-6c6f-4f35-8916-2710207e3fe7","type":"PanTool"},{"attributes":{"callback":null,"column_names":["x","y"],"data":{"x":[0,1,2,3,5,6,7],"y":[0,7,4,6,2,5,3]}},"id":"acba427f-4d46-4ef3-937c-4d520556f7b6","type":"ColumnDataSource"},{"attributes":{"callback":null},"id":"6475c865-55e2-4c01-9536-96153139599a","type":"DataRange1d"},{"attributes":{"callback":null,"overlay":{"id":"f06b7caa-9127-4883-9466-727d377ec36b","type":"BoxAnnotation"},"renderers":[{"id":"bc840d73-dbeb-45c4-96e4-4c32fa921500","type":"GlyphRenderer"}]},"id":"8cfddd0b-9043-4d33-a1e1-43451a9d57c2","type":"BoxSelectTool"},{"attributes":{},"id":"8a01e8a2-65a8-4314-bfca-d9a35e084c6c","type":"BasicTickFormatter"},{"attributes":{"callback":null,"overlay":{"id":"9945d567-37ac-4bf3-8041-13914b9cf881","type":"PolyAnnotation"}},"id":"53a32fe0-c127-49ea-a8ea-fde4a540e4c4","type":"LassoSelectTool"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"plot":null,"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"f06b7caa-9127-4883-9466-727d377ec36b","type":"BoxAnnotation"},{"attributes":{"fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"plot":null,"xs_units":"screen","ys_units":"screen"},"id":"9945d567-37ac-4bf3-8041-13914b9cf881","type":"PolyAnnotation"},{"attributes":{"formatter":{"id":"e6d45879-852b-4501-b8c6-b936c96bb006","type":"BasicTickFormatter"},"plot":{"id":"05e28e25-84f6-488f-821f-d0d98934fed4","subtype":"Figure","type":"Plot"},"ticker":{"id":"2b1a3098-3482-4553-a0af-92af6e29fb85","type":"BasicTicker"}},"id":"d3f6a704-969b-4d87-b69e-221e588d1957","type":"LinearAxis"}],"root_ids":["05e28e25-84f6-488f-821f-d0d98934fed4"]},"title":"Bokeh Application","version":"0.12.11"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    var docs_json = document.getElementById('f7bd4350-58b6-4dda-bbf9-f0efe1671109').textContent;
+                    var render_items = [{"docid":"a8886884-e231-4f75-9f61-d1019709d39d","elementid":"8b0996d9-64b4-4e27-91dd-7bc0317e81dd","modelid":"05e28e25-84f6-488f-821f-d0d98934fed4"}];
+                    root.Bokeh.embed.embed_items(docs_json, render_items);
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to embed document because BokehJS library is missing")
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    </body>
+</html>
